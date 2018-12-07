@@ -15,19 +15,14 @@ login === 'isAdmin' ? alert('Привет, Admin!') : alert('Ты точно н�
 let login = prompt('Ведите логин');
 
 
-
-
-
 if (login === 'Admin') {
 	let password = prompt('Ведите пароль');
 		if (password === 'qwerty') {
 			alert('Добро пожаловать, Admin');
-		} else if (password === null){
+		} else if (password === null || ''){
 			alert('Отказано в доступе');
-		} else if (password === escape){
-			alert('Отказано в доступе');
-		} else if (password === ''){
-			alert('Отказано в доступе');
+		// } else if (password === ''){
+		// 	alert('Отказано в доступе');
 		} else {
 			alert('Введенный пароль не верный');
 		}
@@ -36,8 +31,6 @@ if (login === 'Admin') {
 		if (passwordTwo === '12345') {
 			alert('Добро пожаловать, User');
 		} else if (passwordTwo === null){
-			alert('Отказано в доступе');
-		} else if (passwordTwo === escape){
 			alert('Отказано в доступе');
 		} else if (passwordTwo === ''){
 			alert('Отказано в доступе');
