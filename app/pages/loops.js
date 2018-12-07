@@ -10,6 +10,7 @@ while (k >= 0) {
 const isAdmin = true;
 (isAdmin === true) ? alert('Привет, Admin!') : alert('Ты точно не Admin');
 
+
 const login = prompt('Ведите логин');
 
 if (login === 'Admin') {
