@@ -165,9 +165,9 @@
 					default: 
 					console.log('Year is undefined :(');
 				} <br></p>
-		</div>
+			</div>
 
-		<div class="pair loops">
+			<div class="pair loops">
 				<p class="question">7. Почему при выполнении указанного кода возникают ошибки?</p>
 				<p class="answer"> 
 				(1) const number = prompt('What is the number?', '0'); // Ввели 1
@@ -178,64 +178,7 @@
 
 					console.log(number + 10); // 110
 				} <br></p>
-		</div>
-		<div class="pair functions">
-				<p class="question">1. Зачем нужны функции??</p>
-				<p class="answer">Они позволяют повторять  один и тот же код в разных частях программы.</p>
-		</div>
-		<div class="pair functions">
-				<p class="question">2. Сколько параметров можно передать функции???</p>
-				<p class="answer">Параметров можно передать сколько необходимо.</p>
-		</div>
-		<div class="pair functions">
-				<p class="question">3. Что случится, если передать в функцию меньше параметров, чем нужно? А если больше? Объясни на примере функции add(a, b).???</p>
-				<p class="answer">Если меньше то на месте параметра будет undefined и функция сработает. Если больше, то фунция тоже сработает на данные по неуказаным параметрам не отабражаться.</p>
-		</div>
-		<div class="pair functions">
-				<p class="question">4. Возможно ли для параметра указать значение по умолчанию? Назови два способа?</p>
-				<p class="answer">1. Во внутренней переменной функции ставим = и пишем значение которое будет по умолчанию. 2.  </p>
-		</div>
-		<div class="pair functions">
-				<p class="question">5. Что такое область видимости??</p>
-				<p class="answer">В JS  две области действия: глобальная и локальная. Переменная, объявляемая вне определения функции - глобальная.  Ее значение доступно и может быть изменено в любом месте программы, а переменная которая объявлена внутри определения функции, является локальной. </p>
-		</div>
-		<div class="pair functions">
-				<p class="question">6. Чем отличается Function Declaration от Function Expression??</p>
-				<p class="answer"> Function Declaration – функция, объявленная в основном потоке кода. Function Expression – объявление функции в контексте какого-либо выражения, например присваивания. </p>
-		</div>
-		<div class="pair functions">
-				<p class="question">7. Что такое замыкание??</p>
-				<p class="answer"> Замыкание — это комбинация функции и лексического окружения, в котором эта функция была определена.</p>
-		</div>
-		<div class="pair functions">
-				<p class="question">8. Далее указан полный код программы. Что мы увидим в консоли браузера? Почему? Что может вернуть функция makeNoize??</p>
-				<p class="answer"> Функция не сработает потому что она невызвана. Должно быть так:
-
-					const makeNoize = function(message) {
-						console.log(message);
-						}
-					
-					makeNoize('Привет');</p> 
-
-					Почему при выполнении указанного кода возникают ошибки?
-
-					// (1) Ответ
-
-					function person() {
-						const name = 'John';
-						const surname = 'Doe';
-					console.log(`Hello, ${name} ${surname}!`);
-					}
-
-					person();
-
-				
-					// (2) Нужно заменить const number = 0; на let number = 0;
-
-					// (3) Нужно const first = () =>  заменить на function first() тоесть FE на FD.
-					
-					// (4) Для того чтобы console.log сработал дважды нужно вынести const name = 'John'; в наружу функци т.е поставить после const surname = 'Doe'; 
-		</div>
+			</div>
 	</div>	
 </body>
 </html>
