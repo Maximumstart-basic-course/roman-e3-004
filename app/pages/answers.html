@@ -213,5 +213,48 @@
 					
 					// (4) Для того чтобы console.log сработал дважды нужно вынести const name = 'John'; в наружу функци т.е поставить после const surname = 'Doe';</p> 
 		</div>
+		<div class="pair objects">
+			<p class="question">1. Что такое свойство объекта? Что такое метод объекта?</p>
+			<p class="answer">Свойства обьекта это значения которые переданы в обьект, а метод ‒ это свойство-функция в объекте.</p>
+		</div>
+		<div class="pair objects">
+			<p class="question">2.Как можно добавить свойства или методы у объекта? Как можно удалить свойство или метод?</p>
+			<p class="answer">Для добавление свойства у обьекта можно в процесе написание кода указать обьект.свойство = значение, дя удаление свойства или метода используеться оператор delete.</p>
+		</div>
+		<div class="pair objects">
+			<p class="question">3.Как можно перебирать свойства объектов?</p>
+			<p class="answer">С помощью цикла for in</p>
+		</div>
+		<div class="pair objects">
+			<p class="question">4. Что такое прототипное наследование?</p>
+			<p class="answer">При поиске свойств объекта сначала перебираются его собственные свойства, а затем у каждого его родителя по цепочке прототипов. </p>
+		</div>
+		<div class="pair objects">
+			<p class="question">5. Как можно обратиться к свойству с именем my-SoMe-PROPERTY+name?</p>
+			<p class="answer"> Получить доступ к свойству объекта можно с помощью точечной записи: objectName.propertyName.</p>
+		</div>
+		<div class="pair objects">
+			<p class="question">6. Объясни, что такое деструктуризация?</p>
+			<p class="answer">Это возможность получать свойства обьекта из самого обьекта или из переменной.</p>
+		</div>
+		<div class="pair objects">
+			<p class="question">7. Почему при выполнении указанного кода возникают ошибки?</p>
+			<p class="answer">
+			const cat = {
+				age: 2,
+				doMeow() {
+					return cat.age;
+				},
+			}
+
+			cat.doMeow();</p>	
+			
+		</div>
+		<div class="pair objects">
+			<p class="question">8. Объясни особенности каждой из коллекций: Map, Set, WeakMap, WeakSet.</p>
+			<p class="answer">В колекции Map в отличие от объектов, ключом может быть произвольное значение. Set – коллекция для хранения множества значений, причём каждое значение может встречаться лишь один раз. Weak*** – особый вид Set/Map. Если некий объект присутствует только в WeakSet/WeakMap – он удаляется из памяти.  </p>
+		</div>
+	</div>
+<script src="common.js"></script>
 		</body>
 </html>
